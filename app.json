@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "AFAQ OS",
+    "slug": "afaq-os",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "scheme": "afaqos",
+    "splash": {
+      "backgroundColor": "#060e20",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "store.afaq24.os"
+    },
+    "android": {
+      "adaptiveIcon": { "backgroundColor": "#060e20" },
+      "package": "store.afaq24.os"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": ["expo-router"],
+    "experiments": { "typedRoutes": true },
+    "extra": {
+      "apiBaseUrl": "https://afaq24.store.ngrok.pizza"
+    }
+  }
+}
