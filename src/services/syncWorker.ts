@@ -175,7 +175,7 @@ class SyncWorker {
   /**
    * Manual sync trigger (pull-to-refresh or settings button).
    */
-  async forcSync(): Promise<SyncResult> {
+  async forceSync(): Promise<SyncResult> {
     const { isOnline } = useOfflineStore.getState();
     if (!isOnline) {
       return { synced: 0, failed: 0, conflicts: 0, errors: ['Device is offline'] };
