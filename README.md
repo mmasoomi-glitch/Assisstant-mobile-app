@@ -1,1 +1,1 @@
-# Afaq-mobile-app
+# Assistant-mobile-app
